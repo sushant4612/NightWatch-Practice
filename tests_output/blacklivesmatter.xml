@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="blacklivesmatter"
+    errors="1" failures="0" hostname="" id="" package="blacklivesmatter" skipped="1"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new SafariDriver session: [Error] Server terminated early with status 1
+  Verify if SafariDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/usr/bin/safaridriver&#39;,
+     port: undefined,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /Users/sushantpathare/Desktop/NightWatch-Practice/logs/blacklivesmatter_safaridriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new SafariDriver session: [Error] Server terminated early with status 1"><![CDATA[
+      Error: An error occurred while creating a new SafariDriver session: [Error] Server terminated early with status 1
+    at /Users/sushantpathare/Desktop/NightWatch-Practice/node_modules/selenium-webdriver/remote/index.js:259:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Donate to Black Lives Matter" classname="blacklivesmatter">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
